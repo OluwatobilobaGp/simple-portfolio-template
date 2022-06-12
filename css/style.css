@@ -1,0 +1,65 @@
+:root {
+    --green: #3F8E00;
+    --grean-2: #2AB090;
+    --green-2-transparent: #E0FFF8;
+    --blue: #000AFF;
+    --blue-transparent: #D0E6FF;
+    --yellow: #FFA217;
+    --yellow-transparent: #FFF6E9;
+    --small-text-color: #9C9C9C;
+    --bg-light: #F5F5F5;
+    --bg-dark: #080808;
+    --white: #ffff;
+    --nav-bg: #1B1B1B;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-height: 100%;
+}
+
+body {
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-size: 14px;
+    background-color: var(--bg-light);
+    color: rgb(143, 68, 68);
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    background-color: var(--bg-dark);
+    color: var(--small-text-color);
+}
+
+nav {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    background-color: var(--nav-bg);
+    margin: 0rem 4rem;
+    border-radius: 0px 0px 8px 8px;
+}
+
+nav  div {
+    display: flex;
+    background-color: #080808;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+
+}
+
+nav  img {
+    height: 14px;
+}
+
+header>section{
+    display: flex;
+}
